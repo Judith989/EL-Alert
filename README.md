@@ -8,7 +8,12 @@ This repository provides the code for EL-Alert, an advanced system designed for 
 To run the model with Grad-CAM XAI method:
 ```bash
 python explain_ast_model.py --audio_path ./data/MAD_dataset/test/009/0.wav --model_path ./save/military_ast_ce/best.pth --xai_method gradcam
+
+To run the model with Integrated Gradients XAI method:
+
+```bash
 python explain_ast_model.py --audio_path ./data/MAD_dataset/test/009/0.wav --model_path ./save/military_ast_ce/best.pth --xai_method ig
+
 
 # Acknowledgments
 This code was adapted from the original dataset repository (https://github.com/kaen2891/military_audio_dataset/tree/main). The Grad-CAM and Integrated Gradient XAI approaches were used to test the trained models.
