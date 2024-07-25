@@ -16,8 +16,20 @@ To run the model with Integrated Gradients XAI method:
 python explain_ast_model.py --audio_path ./data/MAD_dataset/test/009/0.wav --model_path ./save/military_ast_ce/best.pth --xai_method ig
 ```
 
+# Results
+## Results
 
-'''''
+Here is a sample of the original spectrogram
+![Original Spectrogram](https://github.com/Judith989/EL-Alert/blob/main/original_spect.png)
+
+Here is a sample of the Grad-CAM XAI result
+![Grad-CAM](https://github.com/Judith989/EL-Alert/blob/main/Gradcam_1.png)
+
+Here is a sample of the IG XAI result
+![Integrated Gradients](https://github.com/Judith989/EL-Alert/blob/main/ig_3.png)
+
+
+
 # Acknowledgments
 This code was adapted from the original dataset repository (https://github.com/kaen2891/military_audio_dataset/tree/main). The Grad-CAM and Integrated Gradient XAI approaches were used to test the trained models.
 
