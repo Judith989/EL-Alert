@@ -17,7 +17,7 @@ python explain_ast_model.py --audio_path ./data/MAD_dataset/test/009/0.wav --mod
 ```
 
 # Results
-## Results
+
 
 Here is a sample of the original spectrogram
 ![Original Spectrogram](https://github.com/Judith989/EL-Alert/blob/main/original_spect.png)
